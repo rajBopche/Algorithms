@@ -16,7 +16,3 @@ fun insertionSort(numberList: Array<Int>): Array<Int> {
     }
     return numberList
 }
-
-fun main() {
-    insertionSort(arrayOf(5, 4, 6, 3, 1, 2, 5, 7, 8, 9, 12, 56, 77)).map { item -> print(" $item") }
-}
