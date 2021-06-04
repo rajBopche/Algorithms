@@ -1,6 +1,6 @@
 package sort
 
-fun sort(intArray: IntArray) {
+fun bubbleSort(intArray: IntArray) {
 
     val size = intArray.size - 1
 
